@@ -7,5 +7,9 @@
         <Nullable>enable</Nullable>
         <RootNamespace>ClaudeAgentClientWithMcp</RootNamespace>
     </PropertyGroup>
-
+    <ItemGroup>
+        <PackageReference Include="Anthropic" Version="12.53.0" />
+        <PackageReference Include="Microsoft.Agents.AI.Anthropic" Version="1.28.0" />
+        <PackageReference Include="ModelContextProtocol.Core" Version="2.2.0" />
+    </ItemGroup>
 </Project>
