@@ -8,4 +8,7 @@
         <RootNamespace>BedRockAgentClient</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+        <PackageReference Include="AWS.AgentCore.Hosting" Version="1.1.1" />
+    </ItemGroup>
 </Project>
