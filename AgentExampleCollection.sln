@@ -30,6 +30,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgUiServer", "AgUiServer\Ag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBedrockChatClient", "SimpleBedrockChatClient\SimpleBedrockChatClient.csproj", "{BB438338-A6A3-4B7D-8086-320E77E85960}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMcpServer", "SimpleMcpServer\SimpleMcpServer.csproj", "{DB741DF2-7408-497B-8D36-608FC9263C19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMcpClient", "SimpleMcpClient\SimpleMcpClient.csproj", "{B7437234-D28F-4343-91D9-15E7EFD38C3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +96,14 @@ Global
 		{BB438338-A6A3-4B7D-8086-320E77E85960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB438338-A6A3-4B7D-8086-320E77E85960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB438338-A6A3-4B7D-8086-320E77E85960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB741DF2-7408-497B-8D36-608FC9263C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB741DF2-7408-497B-8D36-608FC9263C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB741DF2-7408-497B-8D36-608FC9263C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB741DF2-7408-497B-8D36-608FC9263C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7437234-D28F-4343-91D9-15E7EFD38C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7437234-D28F-4343-91D9-15E7EFD38C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7437234-D28F-4343-91D9-15E7EFD38C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7437234-D28F-4343-91D9-15E7EFD38C3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EDA13D7A-7FA8-4C31-8A4E-DDAA4A22AF0C} = {38E33F89-9033-4E3C-8230-2B2AE67299EB}
