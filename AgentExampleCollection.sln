@@ -24,6 +24,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaudeAgentWithMiddleware",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaudeDeclarativeAgent", "ClaudeDeclarativeAgent\ClaudeDeclarativeAgent.csproj", "{7D68A616-A2C0-49BD-BF17-600E39119143}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{38E33F89-9033-4E3C-8230-2B2AE67299EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgUiServer", "AgUiServer\AgUiServer.csproj", "{EDA13D7A-7FA8-4C31-8A4E-DDAA4A22AF0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +82,12 @@ Global
 		{7D68A616-A2C0-49BD-BF17-600E39119143}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D68A616-A2C0-49BD-BF17-600E39119143}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D68A616-A2C0-49BD-BF17-600E39119143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA13D7A-7FA8-4C31-8A4E-DDAA4A22AF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA13D7A-7FA8-4C31-8A4E-DDAA4A22AF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA13D7A-7FA8-4C31-8A4E-DDAA4A22AF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA13D7A-7FA8-4C31-8A4E-DDAA4A22AF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDA13D7A-7FA8-4C31-8A4E-DDAA4A22AF0C} = {38E33F89-9033-4E3C-8230-2B2AE67299EB}
 	EndGlobalSection
 EndGlobal
