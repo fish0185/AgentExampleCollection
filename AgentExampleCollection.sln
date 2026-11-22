@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMcpClient", "SimpleMc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaudeAgentWithMcpPrompts", "ClaudeAgentWithMcpPrompts\ClaudeAgentWithMcpPrompts.csproj", "{04F4D904-079E-4A2E-8DC1-24678089F7EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaudeAgentWithSubAgent", "ClaudeAgentWithSubAgent\ClaudeAgentWithSubAgent.csproj", "{12BD1309-2570-4526-B39C-E0AA2B3A1175}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +112,10 @@ Global
 		{04F4D904-079E-4A2E-8DC1-24678089F7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04F4D904-079E-4A2E-8DC1-24678089F7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04F4D904-079E-4A2E-8DC1-24678089F7EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12BD1309-2570-4526-B39C-E0AA2B3A1175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12BD1309-2570-4526-B39C-E0AA2B3A1175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12BD1309-2570-4526-B39C-E0AA2B3A1175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12BD1309-2570-4526-B39C-E0AA2B3A1175}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EDA13D7A-7FA8-4C31-8A4E-DDAA4A22AF0C} = {38E33F89-9033-4E3C-8230-2B2AE67299EB}
